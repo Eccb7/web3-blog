@@ -1,0 +1,37 @@
+{
+  "name": "web3-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "chai": "^5.0.3",
+    "easymde": "^2.18.0",
+    "ethereum-waffle": "^2.2.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.19.4",
+    "ipfs-http-client": "^60.0.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "react-simplemde-editor": "^5.2.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
