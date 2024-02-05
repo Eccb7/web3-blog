@@ -1,8 +1,9 @@
 //SPDX-License-Identifier: Unlicense
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.20;
 
+import "./Counters.sol";
 import "hardhat/console.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Blog {
     string public name;
